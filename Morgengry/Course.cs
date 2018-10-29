@@ -42,7 +42,7 @@ namespace Morgengry
         }
         public override string ToString()
         {
-            return "Name: " + Name + ", Duration in Minutes: " + DurationInMinutes;
+            return "Name:  " + Name + ", Duration in Minutes: " + DurationInMinutes;
         }
     }
 }
