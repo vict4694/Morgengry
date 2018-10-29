@@ -6,15 +6,14 @@ using System.Threading.Tasks;
 
 namespace Morgengry
 {
+    public enum Level
+    { // =0 er dobbeltkonfekt. det forklarer bare at de får int-værdier. og ikke index.
+        low,
+        medium,
+        high,
+    };
     public class Amulet : Merchandise
     {
-        
-        public enum Level
-        { // =0 er dobbeltkonfekt. det forklarer bare at de får int-værdier. og ikke index.
-                low,
-                medium,
-                high,
-        };
         public string Design
         {
             get;

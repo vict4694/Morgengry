@@ -34,7 +34,7 @@ namespace Morgengry
         }
         public Course(string name, int durationInMinutes)
         {
-            Name = Name;
+            Name = name;
             DurationInMinutes = durationInMinutes;
         }
         public Course(string name) : this(name, 0)
@@ -42,7 +42,7 @@ namespace Morgengry
         }
         public override string ToString()
         {
-            return "Name:  " + Name + ", Duration in Minutes: " + DurationInMinutes;
+            return "Name: " + Name + ", Duration in Minutes: " + DurationInMinutes;
         }
     }
 }

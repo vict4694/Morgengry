@@ -1,7 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Morgengry;
-using static Morgengry.Amulet;
 
 namespace UnitTest1
 {
