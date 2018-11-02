@@ -8,6 +8,21 @@ namespace Morgengry
 {
     public class Utility
     {
+        private double _lowQualityValue;
+        public double LowQualityValue
+        {
+            get { return _lowQualityValue; }
+            set { _lowQualityValue = 12.5; }
+        }
+        private double _mediumQualityValue = 20.0;
+        public double MediumQualityValue
+        { get { return _mediumQualityValue;}
+        }
+        private double _highQualityValue = 27.5;
+        public double HighQualityValue
+        {
+            get { return _highQualityValue; }
+        }
 
         public static double GetValueOfBook(Book book)
         {
@@ -20,6 +35,7 @@ namespace Morgengry
             if (quality == Level.low)
             {
                 return 12.5;
+                //return LowQualityValue;
             }
             else if (quality == Level.medium)
             {
