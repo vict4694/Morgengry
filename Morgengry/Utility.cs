@@ -16,12 +16,12 @@ namespace Morgengry
 
         public static double GetValueOfAmulet(Amulet amulet)
         {
-            Level q = amulet.Quality;
-            if (q == Level.low)
+            Level quality = amulet.Quality;
+            if (quality == Level.low)
             {
                 return 12.5;
             }
-            else if (q == Level.medium)
+            else if (quality == Level.medium)
             {
                 return 20.0;
             }
